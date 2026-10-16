@@ -1,0 +1,52 @@
+[
+    {
+        "model": "voluntariado_app.categoriaactividad",
+        "pk": 1,
+        "fields": {
+            "categoria": "Educación",
+            "descripcion": "Apoyo escolar, talleres y reforzamiento.",
+            "created_at": "2026-10-15T00:00:00Z",
+            "updated_at": "2026-10-15T00:00:00Z"
+        }
+    },
+    {
+        "model": "voluntariado_app.categoriaactividad",
+        "pk": 2,
+        "fields": {
+            "categoria": "Salud",
+            "descripcion": "Campañas de salud y prevención.",
+            "created_at": "2026-10-15T00:00:00Z",
+            "updated_at": "2026-10-15T00:00:00Z"
+        }
+    },
+    {
+        "model": "voluntariado_app.categoriaactividad",
+        "pk": 3,
+        "fields": {
+            "categoria": "Medioambiente",
+            "descripcion": "Limpieza, reciclaje y reforestación.",
+            "created_at": "2026-10-15T00:00:00Z",
+            "updated_at": "2026-10-15T00:00:00Z"
+        }
+    },
+    {
+        "model": "voluntariado_app.categoriaactividad",
+        "pk": 4,
+        "fields": {
+            "categoria": "Ayuda social",
+            "descripcion": "Entrega de alimentos, ropa y apoyo a familias.",
+            "created_at": "2026-10-15T00:00:00Z",
+            "updated_at": "2026-10-15T00:00:00Z"
+        }
+    },
+    {
+        "model": "voluntariado_app.categoriaactividad",
+        "pk": 5,
+        "fields": {
+            "categoria": "Cultura y recreación",
+            "descripcion": "Eventos culturales, deportivos y recreativos.",
+            "created_at": "2026-10-15T00:00:00Z",
+            "updated_at": "2026-10-15T00:00:00Z"
+        }
+    }
+]

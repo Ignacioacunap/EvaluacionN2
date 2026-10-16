@@ -1,0 +1,13 @@
+{% extends 'voluntariado_app/base.html' %}
+
+{% block titulo %}Bienvenida - {{ titulo_proyecto }}{% endblock %}
+
+{% block contenido %}
+    <section class="tarjeta bienvenida">
+        <h1>{{ titulo_proyecto }}</h1>
+        <p>{{ descripcion }}</p>
+        <p class="nota">
+            La API REST está disponible en <a href="/api/">/api/</a>.
+        </p>
+    </section>
+{% endblock %}

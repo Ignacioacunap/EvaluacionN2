@@ -1,0 +1,15 @@
+{% extends 'voluntariado_app/base.html' %}
+
+{% block titulo %}Página no encontrada (404){% endblock %}
+
+{% block contenido %}
+    <section class="tarjeta error404">
+        <h1>404</h1>
+        <h2>La página que buscas no existe</h2>
+        <p>
+            Es posible que la actividad o el recurso que intentas visitar haya sido
+            movido, eliminado o que la dirección esté mal escrita.
+        </p>
+        <a class="boton" href="/">Volver a la página de inicio</a>
+    </section>
+{% endblock %}

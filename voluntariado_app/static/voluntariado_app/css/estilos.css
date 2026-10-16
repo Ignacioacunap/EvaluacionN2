@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f5;
+    color: #1f2d2b;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cabecera {
+    background-color: #1f6f54;
+    color: #fff;
+    padding: 18px 0;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contenido {
+    flex: 1;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.bienvenida h1 {
+    color: #1f6f54;
+    margin-top: 0;
+}
+
+.nota {
+    color: #6b7876;
+    font-size: 0.9rem;
+    margin-top: 24px;
+}
+
+.error404 h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: #c0392b;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 22px;
+    background-color: #1f6f54;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.boton:hover {
+    background-color: #17543f;
+}
+
+.pie {
+    background-color: #e9ece9;
+    color: #667;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 0.85rem;
+}
